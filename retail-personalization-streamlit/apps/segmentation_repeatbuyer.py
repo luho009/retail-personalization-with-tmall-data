@@ -32,5 +32,5 @@ def app():
         target_df = segment[segment['User Id']== target]
         displaysegment()
         st.text('Repeat Purchase Prediction: ')
-        pred_target_df = prediction[prediction['user_id']== target]
+        pred_target_df = prediction[prediction['User ID']== target]
         displayprediction()
